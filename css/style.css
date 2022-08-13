@@ -1,0 +1,72 @@
+html {
+    background-color: #191919;
+    color: #fff;
+    font-family: 'Inconsolata', monospace;
+    flex-direction: column;
+    text-align: center;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button {
+    margin: auto;
+    font-size: 14px;
+    position: relative;
+    font-family: 'Inconsolata', monospace;
+    transition: all 0.3s ease-in-out;
+    background-color: #191919;
+    color: #909090;
+    border: 1px solid #262626;
+    text-align: center;
+    line-height: 4px;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.tgButton {
+    margin: auto;
+    font-size: 14px;
+    position: relative;
+    font-family: 'Inconsolata', monospace;
+    transition: all 0.3s ease-in-out;
+    background-color: #229ED9;
+    color: #fff;
+    text-align: center;
+    line-height: 4px;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #8a8a8a;
+    border: 1px solid #252525;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.horizontalcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color {
+    transition: all 0.3s ease-in-out;
+}
+
+.buttons {
+    justify-content: center;
+    display: inline-flex;
+}
