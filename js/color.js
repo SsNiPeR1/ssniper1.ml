@@ -22,7 +22,7 @@ async function color() {
     ];
     for (; ;) {
         for (var i = 0; i < _COLORS.length; i++) {
-            await sleep(250);
+            await sleep(400);
             document.getElementById("name").style.color = _COLORS[i];
         }
     }

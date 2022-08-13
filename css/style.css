@@ -63,10 +63,35 @@ button:hover {
 }
 
 .color {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .buttons {
     justify-content: center;
     display: inline-flex;
+}
+
+.kumaButton {
+    margin: auto;
+    font-size: 14px;
+    position: relative;
+    font-family: 'Inconsolata', monospace;
+    transition: all 0.3s ease-in-out;
+    background-color: #5BDC8A;
+    color: #000;
+    border: 1px solid #262626;
+    text-align: center;
+    line-height: 4px;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.kumaButton:hover {
+    background-color: #323232;
+    color: #5BDC8A;
+    border: 0.5px solid #5BDC8A;
+    transition: all 0.3s ease-in-out;
 }
