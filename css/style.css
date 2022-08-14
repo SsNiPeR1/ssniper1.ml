@@ -14,7 +14,7 @@ html {
     transform: translate(-50%, -50%);
 }
 
-button {
+.githubButton {
     margin: auto;
     font-size: 14px;
     position: relative;
@@ -22,7 +22,7 @@ button {
     transition: all 0.3s ease-in-out;
     background-color: #191919;
     color: #909090;
-    border: 1px solid #262626;
+    border: 1px solid #555;
     text-align: center;
     line-height: 4px;
     display: inline-flex;
@@ -47,12 +47,20 @@ button {
     width: auto;
     height: 30px;
     border-radius: 5px;
+    border: 1px solid #262626;
 }
 
-button:hover {
-    background-color: #8a8a8a;
-    border: 1px solid #252525;
-    color: black;
+.tgButton:hover {
+    background-color: #191919;
+    border: 1px solid #229ED9;
+    color: #229ED9;
+    transition: all 0.3s ease-in-out;
+}
+
+.githubButton:hover {
+    background-color: #909090;
+    border: 1px solid #191919;
+    color: #333;
     transition: all 0.3s ease-in-out;
 }
 
